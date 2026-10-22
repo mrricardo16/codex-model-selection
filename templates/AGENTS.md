@@ -16,6 +16,7 @@ These rules apply unless the user explicitly overrides the model, reasoning effo
 Choose the least costly route that can reliably complete and verify the task. Reliability and acceptance criteria come first; optimize for efficiency only among routes that can meet them.
 
 Evaluate the requested outcome, uncertainty, business logic, module coupling, reversibility, consequences of failure, blast radius, and available verification. Do not route by file count, prompt length, tool count, or keywords alone.
+Complexity alone is not a Route D trigger; use Astra only when concrete consequences or an evidenced capability gap justify the additional review.
 
 ## Route A — Direct
 
